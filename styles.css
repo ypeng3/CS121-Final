@@ -1,0 +1,158 @@
+.container-1 {
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-pick-color {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/**Main**/
+
+main {
+    width: 80%;
+    margin: 3% 10% 0 10%;
+    background-color: floralwhite;
+    padding: 3% 0;
+    color: #123c69;
+}
+
+
+/**Header**/
+
+header {
+    text-align: center;
+}
+
+
+/**Nav**/
+
+.navbar-expand-md {
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+    color: rgba(238, 224, 224, 0.952);
+    margin: 0 auto;
+    background-color: #282828;
+}
+
+nav a:link {
+    color: rgba(238, 224, 224, 0.952);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #20b283;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 18px;
+    width: 15%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: rgba(238, 224, 224, 0.952);
+}
+
+.navbar-expand-md {
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+    color: rgba(238, 224, 224, 0.952);
+    margin: 0 auto;
+    background-color: #282828;
+}
+
+nav a:link {
+    color: rgba(238, 224, 224, 0.952);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #20b283;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 18px;
+    width: 15%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: rgba(238, 224, 224, 0.952);
+}
+
+
+/* Footer Styling */
+
+footer ol {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: stretch;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #282828;
+    margin: 3% 0 0 0;
+}
+
+footer h3 {
+    text-align: center;
+    padding: 5px 0;
+    margin: 0;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+footer p {
+    text-align: center;
+    padding: 5px 0;
+    margin: 0;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+footer img {
+    padding: 0;
+    margin: 0;
+    width: 35px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: rgba(238, 224, 224, 0.952);
+}
+
+footer a:link {
+    color: rgba(238, 224, 224, 0.952);
+    text-decoration: underline;
+}
+
+footer h3 {
+    color: rgba(238, 224, 224, 0.952);
+}
+
+footer p {
+    color: rgba(238, 224, 224, 0.952);
+}
